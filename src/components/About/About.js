@@ -96,7 +96,7 @@ class About extends React.Component {
 	        </div> 
 			    <div>
 				    <h1 className={styles.title}>{ isLoading ? <CircularProgress /> : 'Мои репозитории:'}</h1>
-				    {!isLoading && <ul>
+				    {!isLoading && <ul className={styles.one} >
 				    	  {isError ?
 				    	   <ErrorBlock /> :
 				    	   repoPageList.map(repo => (
