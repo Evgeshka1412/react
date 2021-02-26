@@ -13,7 +13,7 @@ const Contacts = () => (
 		 	 <a className={styles.contacts} href="+7 911 951 08 45">
 		   <PhoneIphoneTwoToneIcon />
 		   +7 911 951 08 45 </a> 
-		   <a className={styles.contacts} href="github.com/Evgeshka1412" >
+		   <a className={styles.contacts} href="https://github.com/Evgeshka1412" >
 		   <GitHubIcon /> </a>
 	</div>
 );
