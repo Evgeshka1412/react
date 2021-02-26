@@ -66,8 +66,9 @@ const Todo = () => {
     case 'active':
       itemsFilter = items.filter(item => item.isDone);
       break;
-    default:
+    case 'all':
       itemsFilter = items;
+      break;
   }
 
   return (

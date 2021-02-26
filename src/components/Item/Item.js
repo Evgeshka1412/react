@@ -21,8 +21,9 @@ class Item extends React.Component {
 			  		<div className={styles.itemWrap}>
 							<div className={styles.checkbox}>
 						  <Checkbox
-			           name="checkedB"
-			           color="primary"
+			           checked={!isDone}
+                 edge='start'
+                 disableRipple
 						     onClick={() => onClickDone(id)}
 						  />
 						  </div>
